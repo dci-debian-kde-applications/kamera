@@ -1,0 +1,30 @@
+Source: kamera
+Section: graphics
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
+ cmake, debhelper (>= 7.0.50~), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.7), libgphoto2-2-dev
+Standards-Version: 3.9.1
+Homepage: https://projects.kde.org/projects/kde/kdegraphics/kamera
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kamera
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kamera
+
+Package: kamera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: digital camera support for KDE applications
+ This package allows any KDE application to access and manipulate pictures on
+ a digital camera.
+ .
+ This package is part of the KDE graphics module.
+
+Package: kamera-dbg
+Architecture: any
+Section: debug
+Breaks: kdegraphics-dbg (<< 4:4.6.90)
+Replaces: kdegraphics-dbg (<< 4:4.6.90)
+Depends: ${misc:Depends}, kamera (= ${binary:Version})
+Description: debugging symbols for kamera
+ This package contains debugging files used to investigate problems with
+ the kamera binaries.
