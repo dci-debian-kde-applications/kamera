@@ -1,14 +1,18 @@
 Source: kamera
 Section: graphics
 Priority: extra
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
- cmake, debhelper (>= 7.0.50~), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.7), libgphoto2-2-dev
+ 	       kdelibs5-dev (>= 4:4.7), 
+	       pkg-kde-tools,
+	       debhelper (>= 7.0.50~), 
+ 	       cmake, 
+	       libgphoto2-2-dev
 Standards-Version: 3.9.1
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kamera
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kamera
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kamera
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kamera.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kamera.git
 
 Package: kamera
 Architecture: any
