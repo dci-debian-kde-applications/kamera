@@ -1,6 +1,6 @@
-kamera (4:4.7.1-0) UNRELEASED; urgency=low
+kamera (4:4.7.1-0r0) UNRELEASED; urgency=low
 
   * Initial release. Start from the Kubuntu packaging, thanks!
   * Shorter copyright file
 
- -- Eshat Cakar <info@eshat.de>  Wed, 28 Sep 2011 17:08:34 +0200
+ -- Eshat Cakar <info@eshat.de>  Wed, 28 Sep 2011 17:15:03 +0200
