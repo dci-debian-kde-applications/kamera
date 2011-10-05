@@ -8,7 +8,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
 	       pkg-kde-tools,
 	       debhelper (>= 7.0.50~),
 	       cmake,
-libgphoto2-2-dev
+	       libgphoto2-2-dev
 Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kamera
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kamera.git
