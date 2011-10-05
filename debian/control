@@ -4,11 +4,11 @@ Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
-	       kdelibs5-dev (>= 4:4.7),
-	       pkg-kde-tools,
-	       debhelper (>= 7.0.50~),
-	       cmake,
-	       libgphoto2-2-dev
+ kdelibs5-dev (>= 4:4.7),
+ pkg-kde-tools,
+ debhelper (>= 7.0.50~),
+ cmake,
+ libgphoto2-2-dev
 Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kamera
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kamera.git
