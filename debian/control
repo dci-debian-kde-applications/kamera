@@ -1,13 +1,11 @@
 Source: kamera
-Section: graphics
-Priority: extra
+Section: kde
+Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.7),
- pkg-kde-tools,
- debhelper (>= 7.0.50~),
- cmake,
  libgphoto2-2-dev
 Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kamera
@@ -16,6 +14,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kamera.git
 
 Package: kamera
 Architecture: any
+Section: graphics
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: digital camera support for KDE applications
  This package allows any KDE application to access and manipulate pictures on
