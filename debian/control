@@ -24,6 +24,7 @@ Description: digital camera support for KDE applications
 Package: kamera-dbg
 Architecture: any
 Section: debug
+Priority: extra
 Breaks: kdegraphics-dbg (<< 4:4.6.90)
 Replaces: kdegraphics-dbg (<< 4:4.6.90)
 Depends: ${misc:Depends}, kamera (= ${binary:Version})
