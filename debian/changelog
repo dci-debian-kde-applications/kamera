@@ -5,6 +5,9 @@ kamera (4:4.8.4-0r1) UNRELEASED; urgency=low
   [ Felix Geyer ]
   * Set priority of kamera-dbg to extra.
 
+  [ Pino Toscano ]
+  * Bump kde-sc-dev-latest build dependency to 4.8.4.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Mar 2012 11:17:49 +0100
 
 kamera (4:4.7.4-2) unstable; urgency=low
