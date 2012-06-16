@@ -1,17 +1,17 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=174
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kamera
 Source: http://www.kde.org
 
 Files: *
 Copyright: 2001 The Kompany
            2001-2003, Ilya Konstantinov <kde-devel@future.shiny.co.il>
-           2001-2007, Marcus Meissner <marcus@jet.franken.de>
+           2001-2008, Marcus Meissner <marcus@jet.franken.de>
            2003, Nadeem Hasan <nhasan@nadmm.com>
 License: GPL-2+
 
 Files: debian/*
 Copyright: 2011, Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Copyright: 2011, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+           2011-2012, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
 
 License: GPL-2+
