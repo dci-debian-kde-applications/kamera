@@ -7,6 +7,7 @@ kamera (4:4.8.4-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Bump kde-sc-dev-latest build dependency to 4.8.4.
+  * Bump kdelibs5-dev build dependency to 4.8.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Mar 2012 11:17:49 +0100
 
