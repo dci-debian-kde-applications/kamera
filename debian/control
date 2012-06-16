@@ -31,3 +31,5 @@ Depends: ${misc:Depends}, kamera (= ${binary:Version})
 Description: debugging symbols for kamera
  This package contains debugging files used to investigate problems with
  the kamera binaries.
+ .
+ This package is part of the KDE graphics module.

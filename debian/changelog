@@ -11,6 +11,7 @@ kamera (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3, no changes required.
   * Add watch file.
   * Convert copyright to copyright-format v1.0 and fix/update.
+  * Slightly improve description of kamera-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Mar 2012 11:17:49 +0100
 
