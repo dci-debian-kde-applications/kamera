@@ -1,4 +1,6 @@
-kamera (4:4.7.4-3) UNRELEASED; urgency=low
+kamera (4:4.8.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Felix Geyer ]
   * Set priority of kamera-dbg to extra.
