@@ -1,6 +1,7 @@
 kamera (4:4.8.4-2) UNRELEASED; urgency=low
 
-
+  * Add a patch to avoid crashes in kameras which contain '/' in their names
+    (Closes: #685676).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 Aug 2012 19:00:57 -0300
 
