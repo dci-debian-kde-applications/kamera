@@ -1,11 +1,11 @@
-kamera (4:4.10.2-1) UNRELEASED; urgency=low
+kamera (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
   * Add me to uploaders.
   * Bump build-deps.
   * Remove patch taken from upstream.
 
- -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 15:38:15 +0000
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 15:48:50 +0000
 
 kamera (4:4.8.4-2) unstable; urgency=low
 
