@@ -1,6 +1,7 @@
 kamera (4:4.11.4-2) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 30 Jan 2014 15:52:02 +0100
 
