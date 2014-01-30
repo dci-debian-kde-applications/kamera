@@ -5,9 +5,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11), libgphoto2-2-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libgphoto2-2-dev,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kamera
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kamera.git
@@ -16,7 +19,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kamera.git
 Package: kamera
 Architecture: any
 Section: graphics
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: digital camera support for KDE applications
  This package allows any KDE application to access and manipulate pictures on
  a digital camera.
@@ -29,7 +32,7 @@ Section: debug
 Priority: extra
 Breaks: kdegraphics-dbg (<< 4:4.6.90)
 Replaces: kdegraphics-dbg (<< 4:4.6.90)
-Depends: ${misc:Depends}, kamera (= ${binary:Version})
+Depends: kamera (= ${binary:Version}), ${misc:Depends}
 Description: debugging symbols for kamera
  This package contains debugging files used to investigate problems with
  the kamera binaries.
