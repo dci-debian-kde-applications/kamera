@@ -1,7 +1,7 @@
 Source: kamera
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
@@ -11,10 +11,10 @@ Build-Depends: cmake,
                kdelibs5-dev (>= 4:4.11),
                libgphoto2-dev,
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kamera
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kamera.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kamera.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kamera.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kamera.git
 
 Package: kamera
 Architecture: any
