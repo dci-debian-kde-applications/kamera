@@ -1,11 +1,12 @@
-kamera (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+kamera (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
 
   * New upstream release candidate
   * Fix watch urls for new release location.
   * Update Vcs urls for the new repository location.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * PPA build
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Nov 2014 15:19:31 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Nov 2014 20:43:24 +0100
 
 kamera (4:4.14.2-1) unstable; urgency=medium
 
