@@ -6,11 +6,18 @@ Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
-               debhelper (>= 9),
+               extra-cmake-modules,
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev,
+               kio-dev,
                libgphoto2-dev,
-               pkg-kde-tools (>= 0.12)
+               libkf5co$
+               debhelper (>= 9),
+               libkf5configwidgets-dev,
+               libkf5i18n-dev,
+               libkf5xmlgui-dev,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdegraphics/kamera
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kamera.git/
