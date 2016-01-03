@@ -11,7 +11,7 @@ Build-Depends: cmake,
                kdelibs5-dev,
                kio-dev,
                libgphoto2-dev,
-               libkf5co$
+               libkf5config-dev,
                debhelper (>= 9),
                libkf5configwidgets-dev,
                libkf5i18n-dev,
