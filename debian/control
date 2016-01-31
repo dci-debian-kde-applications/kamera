@@ -31,16 +31,3 @@ Description: digital camera support for KDE applications
  a digital camera.
  .
  This package is part of the KDE graphics module.
-
-Package: kamera-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Breaks: kdegraphics-dbg (<< 4:4.6.90)
-Replaces: kdegraphics-dbg (<< 4:4.6.90)
-Depends: kamera (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for kamera
- This package contains debugging files used to investigate problems with
- the kamera binaries.
- .
- This package is part of the KDE graphics module.
