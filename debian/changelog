@@ -1,9 +1,9 @@
-kamera (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kamera (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * New upstream release.
   * Debian merge: No remaining changes. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 29 Jan 2016 07:32:08 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:27:54 +0100
 
 kamera (4:15.12.0-1~) UNRELEASED; urgency=medium
 
