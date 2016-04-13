@@ -1,3 +1,11 @@
+kamera (4:15.12.3-1~1.gbp57a710) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @57a7108e6173e4a200b0f1d6afff75bf54cbb41f **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:57:08 +0200
+
 kamera (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
