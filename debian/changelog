@@ -1,10 +1,22 @@
-kamera (4:15.12.3-1~1.gbp57a710) UNRELEASED; urgency=medium
+kamera (4:15.12.3-1~2.gbpa244c5) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @a244c5cda47b49f68a19963720d80cc9be0a8591 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @57a7108e6173e4a200b0f1d6afff75bf54cbb41f **
 
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:57:08 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * New patch: use_pkgconfig_for_gphoto2.patch
+  * Force building against GPHOTO2_5, the test was failing
+  * Add missing install file
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 13 Apr 2016 16:24:43 +0200
 
 kamera (4:15.12.1-1) experimental; urgency=medium
 
