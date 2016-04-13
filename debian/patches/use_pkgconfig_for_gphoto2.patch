@@ -1,0 +1,23 @@
+--- a/FindGphoto2.cmake
++++ b/FindGphoto2.cmake
+@@ -47,6 +47,20 @@
+         endforeach()
+ 
+         set(GPHOTO2_INCLUDE_DIRS ${GPHOTO2PORT_INCLUDE_DIR} ${GPHOTO2_INCLUDE_DIR} )
++    else()
++        find_package(PkgConfig QUIET)
++        PKG_CHECK_MODULES(PC_GPHOTO2 QUIET libgphoto2_port)
++        PKG_CHECK_MODULES(PC_GPHOTO2PORT QUIET libgphoto2)
++
++        foreach(_library ${PC_GPHOTO2PORT_LIBRARIES})
++            set(GPHOTO2_LIBRARIES ${GPHOTO2_LIBRARIES} "-l${_library}")
++        endforeach()
++        foreach(_library ${PC_GPHOTO2_LIBRARIES})
++            set(GPHOTO2_LIBRARIES ${GPHOTO2_LIBRARIES} "-l${_library}")
++        endforeach()
++
++        set(GPHOTO2_INCLUDE_DIRS
++            ${PC_GPHOTO2PORT_INCLUDE_DIRS} ${PC_GPHOTO2_INCLUDE_DIRS})
+ 
+     endif()
+ 
