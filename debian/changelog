@@ -1,6 +1,6 @@
-kamera (4:15.12.3-1~2.gbpa244c5) UNRELEASED; urgency=medium
+kamera (4:15.12.3-1~3.gbpb2a853) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a244c5cda47b49f68a19963720d80cc9be0a8591 **
+  ** SNAPSHOT build @b2a853f7d2338a6fd217f6cb0e7f7a334276296c **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @57a7108e6173e4a200b0f1d6afff75bf54cbb41f **
@@ -15,8 +15,9 @@ kamera (4:15.12.3-1~2.gbpa244c5) UNRELEASED; urgency=medium
   * New patch: use_pkgconfig_for_gphoto2.patch (Closes: #821324)
   * Force building against GPHOTO2_5, the test was failing
   * Add missing install file
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 13 Apr 2016 16:24:43 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 18 Apr 2016 15:54:14 +0200
 
 kamera (4:15.12.1-1) experimental; urgency=medium
 
