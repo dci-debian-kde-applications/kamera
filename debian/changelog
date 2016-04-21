@@ -1,11 +1,12 @@
-kamera (4:15.12.3-1~3.gbpb2a853) UNRELEASED; urgency=medium
+kamera (4:16.04.0-1~1.gbp8ddd54) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b2a853f7d2338a6fd217f6cb0e7f7a334276296c **
+  ** SNAPSHOT build @8ddd54c8a5ae4ab5cae557908232366a4ae2e6cb **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @57a7108e6173e4a200b0f1d6afff75bf54cbb41f **
 
   * Bump Standards-Version to 3.9.8
+  * Refresh patches
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
@@ -17,7 +18,7 @@ kamera (4:15.12.3-1~3.gbpb2a853) UNRELEASED; urgency=medium
   * Add missing install file
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 18 Apr 2016 15:54:14 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 02:54:12 +0200
 
 kamera (4:15.12.1-1) experimental; urgency=medium
 
