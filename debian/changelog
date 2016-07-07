@@ -1,17 +1,14 @@
-kamera (4:16.04.1-0neon) xenial; urgency=medium
+kamera (4:16.04.2-1) unstable; urgency=medium
 
-  * New release
+  * New upstream release.
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:12:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 16:18:51 +0200
 
-kamera (4:15.12.3-1~2.gbpa244c5) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a244c5cda47b49f68a19963720d80cc9be0a8591 **
+kamera (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @57a7108e6173e4a200b0f1d6afff75bf54cbb41f **
-
   * Bump Standards-Version to 3.9.8
+  * Refresh patches
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
@@ -22,7 +19,7 @@ kamera (4:15.12.3-1~2.gbpa244c5) UNRELEASED; urgency=medium
   * Force building against GPHOTO2_5, the test was failing
   * Add missing install file
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 13 Apr 2016 16:24:43 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 May 2016 11:48:56 +0200
 
 kamera (4:15.12.1-1) experimental; urgency=medium
 
