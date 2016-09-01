@@ -1,3 +1,11 @@
+kamera (4:16.08.0-2~1.gbpf5ee75) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f5ee7525dfa9ffbb88a37fcb5c3bf8f081df5990 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 01 Sep 2016 14:15:19 +0200
+
 kamera (4:16.08.0-1) unstable; urgency=medium
 
   * Team upload.
