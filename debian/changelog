@@ -1,12 +1,12 @@
-kamera (4:16.08.2-1~1.gbp51b273) UNRELEASED; urgency=medium
+kamera (4:16.08.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @51b273216e8f1536cb4fd35d8d90e9b2cde47b6d **
-
-  * Update build-deps and deps with the info from cmake
-  * UNRELEASED
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 20:54:37 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 23:07:48 +0200
 
 kamera (4:16.08.0-1) unstable; urgency=medium
 
