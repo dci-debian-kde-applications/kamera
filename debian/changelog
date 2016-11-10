@@ -1,3 +1,11 @@
+kamera (4:16.08.3-1~1.gbp272e1e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @272e1e67d5939740fdf56b1d5a47369322216124 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 20:54:29 +0100
+
 kamera (4:16.08.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
